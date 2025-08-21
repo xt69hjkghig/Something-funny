@@ -20,7 +20,7 @@ class handDetector():
                     mpDraw.draw_landmarks(img,handLms,self.mpHands.HAND_CONNECTIONS) 
         return img
     def findPosition(self, img):
-
+        pass
 
 
 
