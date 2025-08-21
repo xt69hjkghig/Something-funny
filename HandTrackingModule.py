@@ -20,7 +20,7 @@ class handDetector():
                     mpDraw.draw_landmarks(img,handLms,self.mpHands.HAND_CONNECTIONS) 
         return img
     def findPosition(self, img):
-        pass
+        return None
 
 
 
@@ -33,7 +33,7 @@ pTime = 0
 cTime = 0
 
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     cap = cv2.VideoCapture('https://192.168.7.107:8080/video')
     detector =handDetector()
     pTime = 0
